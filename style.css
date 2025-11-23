@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #f3f6ff, #e9ecff);
+  min-height: 100vh;
+  padding-top: 30px;
+  color: #333;
+}
+
+/* Title */
+h1 {
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  color: #3a3a7a;
+}
+
+/* Form Styling */
+#itemForm .form-control {
+  border-radius: 10px;
+  border: 2px solid #d3d6fa;
+  transition: all 0.3s ease;
+}
+
+#itemForm .form-control:focus {
+  border-color: #6370f0;
+  box-shadow: 0 0 8px rgba(99, 112, 240, 0.3);
+}
+
+#itemForm button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #6370f0, #4856dc);
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+#itemForm button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(99, 112, 240, 0.4);
+}
+
+/* List Items */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px !important;
+  margin-bottom: 8px;
+  padding: 15px 20px;
+  background: #ffffff;
+  border: 1px solid #e3e3f8;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Delete Button */
+.list-group-item button {
+  border-radius: 8px;
+  padding: 6px 12px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.list-group-item button:hover {
+  transform: scale(1.05);
+  background-color: #d63031 !important;
+}
+
+  
